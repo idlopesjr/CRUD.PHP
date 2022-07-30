@@ -17,12 +17,14 @@
                     <td><input type="text" name="nomepessoas" placeholder="Nome"></td>
                     <td><input type="number" name="idadepessoas" placeholder="Idade"></td> 
                     <td><select id="generopessoas" name="generopessoas">
+                        <option value="genero" disabled selected >Gênero</option>
                         <option value="Masculino">Masculino</option>
                         <option value="Feminino">Feminino</option>
                         <option value="Outros">Outros</option>
                         <option value="NaoInformar">Não Informar</option>
                     </select><td>
                     <td><select id="corpessoas" name="corpessoas">
+                        <option value="cor" disabled selected>Cor</option>
                         <option value="Preto">Preto</option>
                         <option value="Branco">Branco</option>
                         <option value="Pardo">Pardo</option>
@@ -82,7 +84,7 @@
                     <td><input type="number" name="pesopessoas" value="<?php echo $pesopessoas ?>"></td>
                     <td class="">
                         <input type="hidden" name="idpessoas" value="<?php echo $idpessoas ?>">
-                        <input type="submit" value="Salvar alteração">
+                        <input type="submit" value="Salvar alterações">
                     </td>
                 </form>
                     <td>
